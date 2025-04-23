@@ -6,6 +6,52 @@ img{
 body{
     background-color: rgb( 233, 233 , 233 );
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.tarjeta{
+text-shadow: 0 0 1px rgb( 0, 0 , 0, 0.3 );
+width: 300px;
+text-align: center;
+background-color: white;
+transition: all 0.3s;
+}
+
+.tarjeta.hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.botones{
+    background-color: skyblue;
+    font-size: 1rem;
+    color: white;
+    margin: 0.5rem;
+    border: none;
+border-radius: 0.5rem;
+}
+
+button.hover{
+    background-color: darkturquoise;
+    transition: all 0.3s;
+}
+body.dark{
+    background-color: dimgray;
+    color: ghostwhite;
+    transition: all 0.3s;
+
+}
+
+body.dark.tarjeta{
+    background-color: grey ;
+    transition: all 0.3s;
+}
+
+body.dark.tarjeta h1,
+body.dark.tarjeta p{
+color: ivory;
+transition: all 0.3s;
 }
