@@ -1,3 +1,5 @@
 let botones = document.querySelector('#cambiarmodo')
 let body = document.querySelector('body')
-let tarjeta =document.querySelector('.tarjeta')
+ botones.onclick =function(){
+    body.classList.toggle('dark')
+ }
